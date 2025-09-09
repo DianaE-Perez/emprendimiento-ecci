@@ -1,0 +1,117 @@
+/* === Estilos Generales === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* === Header === */
+.header {
+  background-color: #0b3d91; /* Azul institucional */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 230px;
+  margin-bottom: 10px;
+}
+
+/* === Formulario === */
+.formulario {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* === Fieldsets y legends === */
+fieldset {
+  border: 2px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  color: #0b3d91;
+  padding: 0 10px;
+}
+
+/* === Inputs, selects y textareas === */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="file"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* === Checkboxes y radios === */
+.checkbox-group label,
+fieldset label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* === Botones === */
+.acciones {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #0b3d91;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #093272;
+}
+
+.btn-secondary {
+  background-color: #e1e4e8;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #cfd4da;
+}
+
+/* === Responsivo === */
+@media (max-width: 768px) {
+  .formulario {
+    width: 90%;
+    padding: 20px;
+  }
+}
